@@ -1,0 +1,1 @@
+import{i as e,r as t}from"./progress.Cfl6ehGh.js";var n=document.querySelector(`[data-tg]`);n&&(e()?n.classList.add(`is-in`):t(n,()=>n.classList.add(`is-in`),.3));

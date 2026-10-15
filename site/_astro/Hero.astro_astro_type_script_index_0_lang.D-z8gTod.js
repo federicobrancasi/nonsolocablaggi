@@ -1,0 +1,1 @@
+import{i as e,n as t}from"./progress.Cfl6ehGh.js";var n=document.querySelector(`[data-cs-band]`);n&&!e()&&t(n,e=>n.style.setProperty(`--z`,(1-Math.min(1,e/.55)).toFixed(4)));

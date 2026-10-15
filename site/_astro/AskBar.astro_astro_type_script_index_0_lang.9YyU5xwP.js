@@ -1,0 +1,1 @@
+import{i as e}from"./progress.Cfl6ehGh.js";var t=document.querySelector(`[data-ask-input]`);if(t&&!e()){let e=JSON.parse(t.dataset.examples||`[]`),n=0,r=window.setInterval(()=>{document.activeElement===t||t.value||(n=(n+1)%e.length,t.placeholder=e[n])},3200);t.addEventListener(`input`,()=>window.clearInterval(r),{once:!0})}

@@ -1,0 +1,1 @@
+var e=document.documentElement.lang.startsWith(`en`)?`en`:`it`,t=e===`en`?`en-GB`:`it-IT`;export{e as n,t};

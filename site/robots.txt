@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nonsolocablaggi.it/sitemap-index.xml

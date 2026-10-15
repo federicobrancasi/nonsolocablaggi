@@ -1,0 +1,1 @@
+var e=new Set,t=``,n={get:()=>t,set(n,r=``){n!==t&&(t=n,e.forEach(e=>e(n,r)))},on(n){e.add(n),n(t,`init`)}};export{n as t};

@@ -1,0 +1,1 @@
+var e=new Set,t=new Set,n=!1,r=0,i=n=>{let a=Math.min(.05,r?(n-r)/1e3:.016);r=n,e.forEach(e=>e(n,a)),t.forEach(e=>e(n,a)),requestAnimationFrame(i)},a=()=>{n||(n=!0,requestAnimationFrame(i))};function o(e){return t.add(e),a(),()=>t.delete(e)}function s(t){return e.add(t),a(),()=>e.delete(t)}export{s as n,o as t};
